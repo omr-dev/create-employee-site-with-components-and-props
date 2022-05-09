@@ -1,3 +1,8 @@
-export function Header(){
-    return <p>This is a header</p>
+export function Header(props) {
+    const message= props.userIsExternal? "Please meet our team:" : "Summer picnic is May 15!";
+  return (
+    <p>
+     {message}
+    </p>
+  );
 }
