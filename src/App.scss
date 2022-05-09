@@ -3,3 +3,13 @@ body{
   color:#ccc; 
   padding: 10px; 
 }
+.employeeDetails{
+    background-color: #222;
+    .titleOfEmployee{
+        color:yellow;
+    }
+    .notesOfEmployee{
+        font-style: italic;
+        color: #777;
+    }
+}
